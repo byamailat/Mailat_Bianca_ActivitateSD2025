@@ -55,9 +55,7 @@ void dezalocare(struct Masina** vectorMasini, int* nrMasini) {
 }
 
 void copiazaMasiniTonajMic(struct Masina* vectorMasini, int nrMasini, float prag, struct Masina** vectorNou, int* dimensiune) {
-	//parametrul prag poate fi modificat in functie de 
-	//tipul atributului ales pentru a indeplini o conditie
-	//este creat un nou vector cu elementele care indeplinesc acea conditie
+	
 	(*dimensiune) = 0;
 	for (int i = 0; i < nrMasini; i++)
 	{
