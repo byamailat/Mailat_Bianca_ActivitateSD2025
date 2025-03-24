@@ -1,0 +1,10 @@
+1,4,34.5,Mihai,Strada A,C
+2,10,50.0,Eminescu,Strada B,D
+3,8,42.3,Creanga,Strada C,C
+4,15,60.2,Caragiale,Strada D,C
+5,20,75.8,Sadoveanu,Strada E,D
+6,12,55.4,Rebreanu,Strada F,D
+7,30,90.1,Blaga,Strada G,D
+8,25,80.0,Arghezi,Strada H,D
+9,18,65.7,Slavici,Strada I,C
+10,22,70.5,Vlahuta,Strada J,D
