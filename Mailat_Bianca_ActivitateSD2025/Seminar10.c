@@ -81,7 +81,7 @@ void rotireStanga(Nod** radacina) {
 void rotireDreapta(Nod** radacina) {
 	Nod* aux;
 	aux = (*radacina)->st;
-	(*radacina)->st = aux->st;
+	(*radacina)->st = aux->dr;
 	aux->dr = (*radacina);
 	*radacina = aux;
 }
