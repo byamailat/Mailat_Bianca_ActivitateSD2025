@@ -1,0 +1,25 @@
+S1
+În fișierul matricerara.csv este salvată o matrice rară. Pe fiecare linie sunt informații despre un element, astfel: index linie (int), index coloană (int) și valoare element (double). Valorile sunt despărțite prin virgulă. Cei doi indecși arată poziția elementului în matrice.
+Să se scrie o aplicație care să îndeplinească următoarele cerințe:
+1)  Să se construiască o clasă Element care să permită stocarea informațiilor despre un element conform structurii de mai sus. Clasa va avea implementate:
+- constructori (de inițializare și default), metode de acces, toString();
+- testare egalitate după index linie, index coloană și valoare (două elemente sun egale dacă au aceeași poziție și valori egale);
+- comparabilitate între elemente după valoare.
+Punctaj: 2 puncte
+2) Să se citească matricea rară într-o listă (List<Element>) și să se afișeze la consolă numărul de elemente negative
+Punctaj: 2 puncte
+3) Să se afișeze mediile pe coloane ale matricei, astfel:
+index_coloana:valoare
+...
+index_coloana:valoare
+Punctaj: 3 puncte (prin utilizare colectori), 2 puncte (fără colectori)
+4) Să se salveze în fișierul binar diagonal.dat elementele de pe diagonala principală
+Punctaj: 1 punct
+5) Să se citească elementele de pe diagonala principală din fișierul diagonal.dat și să se afișeze la consolă.
+Punctaj: 1 punct
+
+Observații
+Nu se acordă punctaj pentru programele cu erori de sintaxă sau erori în execuție.
+Punctajul se acordă dacă rezultatele sunt corecte și furnizate conform cerințelor.
+
+
